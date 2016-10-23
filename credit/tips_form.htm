@@ -1,0 +1,101 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Money-saving tips</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/credit_bkg.jpg);
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+//-->
+</script>
+</head>
+
+<body>
+<h2>Credit Protection<br>
+Spending Money Wisely</h2>
+<hr align="left" width="400" size="3">
+<p>&nbsp;</p>
+<p>Take control of your finances with these money-saving tips -- Saving Secrets,
+  Frugal Living, and Personal Budgeting. Use the following form to submit your
+request.</p>
+<form action="mailto:reolivera97@gmail.com" method="post" enctype="text/plain" name="gues_comments" target="_self" id="gues_comments" onSubmit="MM_validateForm('name','','R','textfield','','RisEmail');return document.MM_returnValue">
+  <table width="75%" border="0" align="center" cellpadding="7" cellspacing="3">
+    <tr>
+      <td width="30%"><div align="right">Name</div></td>
+      <td><div align="left">
+        <input name="name" type="text" id="name" size="40">
+      </div></td>
+    </tr>
+    <tr>
+      <td width="30%"><div align="right">E-mail address</div></td>
+      <td><div align="left">
+        <input name="textfield" type="text" id="textfield" size="40">
+      </div></td>
+    </tr>
+    <tr>
+      <td width="30%"><div align="right">Money-saving tips</div></td>
+      <td><div align="left">
+        <select name="moneytips" size="3" multiple id="moneytips">
+          <option value="saving">Saving Secrets</option>
+          <option value="frugal">Frugal Living</option>
+          <option value="budget">personal Budgeting</option>
+        </select>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="30%"><div align="right">Rate this Site:<br>
+      1 for Excellent and 3<br>
+      for Poor
+      </div></td>
+      <td><div align="left">1 
+        <input type="radio" name="excellent" id="radio" value="excellent">
+      2 
+      <input type="radio" name="average" id="radio2" value="average">
+      3 
+      <input type="radio" name="poor" id="radio3" value="poor">
+      </div></td>
+    </tr>
+    <tr>
+      <td width="30%"><div align="right">
+        <input type="submit" name="Submit" id="button" value="Submit Form">
+      </div></td>
+      <td><div align="left">
+        <input type="reset" name="Reset" id="Reset" value="Reset Form">
+      </div></td>
+    </tr>
+  </table>
+</form>
+<p><a href="index.html">Home</a><br>
+</p>
+</body>
+</html>

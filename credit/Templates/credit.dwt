@@ -1,0 +1,49 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../credit_info.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="../images/credit_bkg.jpg">
+<!-- TemplateBeginEditable name="table_credit" -->
+<table width="879" border="0" align="center" cellpadding="5" cellspacing="5" summary="ABC's of credit">
+  <tr>
+    <td width="332"><img src="../images/logo.gif" width="123" height="149" /></td>
+    <td colspan="2"><h1>The ABCs of Credit</h1></td>
+  </tr>
+  <tr>
+    <td colspan="3"><div align="center"><img src="../images/line.gif" width="477" height="8" /></div></td>
+  </tr>
+  <tr>
+    <td><h2>Add heading</h2></td>
+    <td width="226">add text or image</td>
+    <td width="271">add text or image</td>
+  </tr>
+  <tr>
+    <td colspan="3">Leave this row blank</td>
+  </tr>
+  <tr>
+    <td><h2>Add heading</h2></td>
+    <td>add text or image</td>
+    <td>add text or image</td>
+  </tr>
+  <tr>
+    <td colspan="3">Leave this row blank</td>
+  </tr>
+  <tr>
+    <td><h2>Add heading</h2></td>
+    <td>add text or image</td>
+    <td>add text or image</td>
+  </tr>
+</table>
+<!-- TemplateEndEditable -->
+<p><a href="../index.html">Home</a></p>
+</body>
+</html>
