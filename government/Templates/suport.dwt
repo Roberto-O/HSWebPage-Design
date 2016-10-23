@@ -1,0 +1,52 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Supporters</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #FFF;
+}
+</style>
+</head>
+
+<body background="../images/blue.jpg">
+<div align="center">
+  <h2>Vote for Roberto!</h2>
+  <h2>Companies That Currently Support Roberto's Campaign and Cause!</h2>
+</div>
+<div align="center"><!-- TemplateBeginEditable name="spons" -->
+  <table width="65%" border="5" cellspacing="5" cellpadding="5">
+    <tr>
+      <td width="34%" height="97" align="center" valign="middle"><h3>Picture of Company</h3></td>
+      <td width="66%"><h4>Description about Comapany. (add rows if neccessary)</h4></td>
+    </tr>
+    <tr>
+      <td height="111" align="center" valign="middle"><h3>Picture of Company</h3></td>
+      <td><h4>Description about Company. (add rows if necessary)</h4></td>
+    </tr>
+  </table>
+<!-- TemplateEndEditable --></div>
+<p align="center"><a href="../index.html">Home</a></p>
+</body>
+</html>
