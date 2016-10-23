@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:spry="http://ns.adobe.com/spry">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flower Meanings</title>
+<script src="SpryAssets/SpryData.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryHTMLDataSet.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMasterDetail.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var meanings = new Spry.Data.HTMLDataSet("flower_data.html", "Table1");
+</script>
+</head>
+
+<body background="images/baskets_bkg.jpg">
+<h1>Common Flowers and Their Meanings
+</h1>
+<div class="MasterDetail">
+  <div spry:region="meanings" class="MasterContainer">
+    <div class="MasterColumn" spry:repeat="meanings" spry:setrow="meanings" spry:hover="MasterColumnHover" spry:select="MasterColumnSelected">{Name}</div>
+  </div>
+  <div spry:detailregion="meanings" class="DetailContainer">
+    <div class="DetailColumn">{Image}</div>
+    <div class="DetailColumn">{Meaning}</div>
+  </div>
+  <br style="clear:both" />
+</div>
+<p>&nbsp;</p>
+</body>
+</html>

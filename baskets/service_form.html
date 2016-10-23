@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>survey</title>
+</head>
+
+<body background="images/baskets_bkg.jpg">
+<div align="center">
+  <h1>Baskets by Carole<br />
+  Visitor Survey</h1>
+</div>
+<form action="mailto:reolivera97@gmail.com" method="post" enctype="text/plain" name="surveyform" target="_self" id="surveyform">
+  <table width="75%" border="6" align="center" cellpadding="7" cellspacing="3">
+    <tr>
+      <td width="40%"><div align="right">Favorite item<br />
+        To select more than one, hold down<br />
+        CTRL key.
+      </div></td>
+      <td width="40%"><div align="left">
+        <select name="favorites" size="3" multiple="multiple" id="favorites">
+          <option value="$75">Holiday Basket</option>
+          <option value="$75">Spring Basket</option>
+          <option value="$30">Halloween Basket</option>
+          <option value="$30 to $75 based on type of food">Food Basket</option>
+          <option value="$25 to $100 based on accessories">Birthday Basket</option>
+        </select>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="40%"><div align="right">Favorite Type of Baskets</div></td>
+      <td width="40%"><div align="left">
+        <select name="favoritebaskets" id="favoritebaskets">
+          <option value="holiday" selected="selected">Holiday Basket</option>
+          <option value="spring">Spring Basket</option>
+          <option value="halloween">Halloween Basket</option>
+          <option value="food">Food Basket</option>
+          <option value="birthday">Birthday Basket</option>
+        </select>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="40%"><div align="right">Comments</div></td>
+      <td width="40%"><div align="left">
+        <textarea name="textarea" id="textarea" cols="35" rows="3"></textarea>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="40%"><div align="right">Would you like to receive a copy of the new survey results?</div></td>
+      <td width="40%"><div align="left">
+        <p>
+          <label>
+            <input type="radio" name="group_results" value="yes" id="group_results_0" />
+            Yes</label>
+          <br />
+          <label>
+            <input type="radio" name="group_results" value="no" id="group_results_1" />
+            No</label>
+          <br />
+          If yes, please enter your e-mail address below:
+<br />
+        </p>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="40%"><div align="right">E-mail address</div></td>
+      <td width="40%"><div align="left">
+        <input name="textfield" type="text" id="textfield" size="35" />
+      </div></td>
+    </tr>
+    <tr>
+      <td width="40%"><div align="right">
+        <input type="submit" name="sned" id="sned" value="Send" />
+      </div></td>
+      <td width="40%"><div align="left">
+        <input type="reset" name="clearform" id="clearform" value="Clear Form" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+<p><a href="index.html">Home</a></p>
+</body>
+</html>
