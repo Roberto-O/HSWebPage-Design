@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Lake City College</title>
+<style type="text/css">
+#france_sights {
+	position:absolute;
+	left:358px;
+	top:240px;
+	width:250px;
+	height:350px;
+	z-index:1;
+	visibility: hidden;
+}
+#germany_sights {
+	position:absolute;
+	left:358px;
+	top:240px;
+	width:250px;
+	height:350px;
+	z-index:2;
+	visibility: hidden;
+}
+#netherlands_sights {
+	position:absolute;
+	left:358px;
+	top:240px;
+	width:250px;
+	height:350px;
+	z-index:3;
+	visibility: hidden;
+}
+#eiffeltower {
+	position: absolute;
+	left: 350px;
+	top: 316px;
+	width: 219px;
+	height: 338px;
+	z-index: 4;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body background="images/right_bkg.jpg">
+<div id="france_sights"><img src="images/france.jpg" alt="Eiffel tower" name="france" width="250" height="350" id="france" /></div>
+<div id="germany_sights"><img src="images/germany.jpg" alt="Castles on the Rhine" name="germany" width="250" height="350" id="germany" /></div>
+<div id="netherlands_sights"><img src="images/netherlands.jpg" alt="Windmills" name="netherlands" width="250" height="350" id="netherlands" /></div>
+<h1>Lake City College </h1>
+<h2>Spring Trip to Europe</h2>
+<p>Move the mouse pointer over the maps to see a preview of each country's sights.</p>
+<p><img src="images/maps.jpg" width="180" height="600" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="2,2,180,161" href="#" onmouseover="MM_showHideLayers('france_sights','','show','germany_sights','','hide','netherlands_sights','','hide')" />
+    <area shape="rect" coords="3,162,179,384" href="#" onmouseover="MM_showHideLayers('france_sights','','hide','germany_sights','','show','netherlands_sights','','hide')" />
+    <area shape="rect" coords="3,384,180,599" href="#" onmouseover="MM_showHideLayers('france_sights','','hide','germany_sights','','hide','netherlands_sights','','show')" />
+  </map> 
+</p>
+</body>
+</html>

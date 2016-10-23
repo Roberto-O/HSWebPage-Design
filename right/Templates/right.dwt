@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Lake City College</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+body,td,th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+	color: #006;
+}
+</style>
+</head>
+
+<body background="file:///H|/Web Page &amp; Design/Dreamweaver Websites/Roberto Olivera/images/right_bkg.jpg">
+<h2 align="center">Lake City College Raffle
+</h2>
+<div align="center"><!-- TemplateBeginEditable name="donation" -->
+  <table width="75%" border="5" cellpadding="8" cellspacing="8" id="raffle_item">
+    <tr>
+      <td align="center" valign="middle">Donor</td>
+      <td align="center" valign="middle">Description</td>
+      <td align="center" valign="middle">Raffle Item</td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">[Enter your first and last name]</td>
+      <td align="center" valign="middle">[Enter your raffle item]</td>
+      <td align="center" valign="middle"><img src="" alt="" name="donation" width="75" height="75" id="donation" /></td>
+    </tr>
+  </table>
+<!-- TemplateEndEditable --></div>
+<p align="center"><img src="../images/college.jpg" width="377" height="300" /></p>
+</body>
+</html>
