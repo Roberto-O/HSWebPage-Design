@@ -1,0 +1,86 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+table {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body background="../images/backgr.jpg">
+<div align="center">
+  <h1 align="center">Women's Volleyball Statistics</h1>
+  <h2 align="center">Blocks Per Set</h2>
+</div>
+<div align="center"><!-- TemplateBeginEditable name="setTable" -->
+  <table width="46%" border="5" cellspacing="5" cellpadding="5">
+    <tr>
+      <td align="center" valign="middle"><h3>Player Name</h3></td>
+      <td align="center" valign="middle"><h3>Team</h3></td>
+      <td align="center" valign="middle"><h3>Per Set</h3></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name </td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>team</td>
+      <td>set</td>
+    </tr>
+  </table>
+<!-- TemplateEndEditable --></div>
+<p align="center"><a href="../index.html">Home</a> |<a href="../history.html"> History</a></p>
+</body>
+</html>
