@@ -1,0 +1,44 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>okinawa</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+</style>
+</head>
+
+<body background="../images/light grey.jpg">
+<div align="center">
+  <h1>Okinawa Churaumi	Aqarium </h1>
+</div>
+<p>&nbsp;</p>
+<div align="center"><!-- TemplateBeginEditable name="tableok" -->
+  <table width="93%" border="5" cellspacing="5" cellpadding="5">
+    <tr>
+      <td width="49%" height="159"><h4>Okinawa Description</h4></td>
+      <td width="51%"><div align="center">
+        <h4>Image</h4>
+      </div></td>
+    </tr>
+    <tr>
+      <td height="148"><div align="center">
+        <h4>Image</h4>
+      </div></td>
+      <td><h4>Okinawa Description</h4></td>
+    </tr>
+  </table>
+<!-- TemplateEndEditable --></div>
+<p align="center">&nbsp;</p>
+<p align="center">	<a href="../index.html">Home</a></p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+#map {
+	position: absolute;
+	left: 194px;
+	top: 133px;
+	width: 320px;
+	height: 360px;
+	z-index: 1;
+	visibility: visible;
+}
+#tokyo {
+	position: absolute;
+	left: 629px;
+	top: 155px;
+	width: 233px;
+	height: 240px;
+	z-index: 2;
+	visibility: hidden;
+}
+#miyajima {
+	position: absolute;
+	left: 620px;
+	top: 160px;
+	width: 369px;
+	height: 306px;
+	z-index: 3;
+	visibility: hidden;
+}
+#aquarium {
+	position: absolute;
+	left: 593px;
+	top: 157px;
+	width: 372px;
+	height: 309px;
+	z-index: 4;
+	visibility: hidden;
+}
+#okitext {
+	position: absolute;
+	left: 653px;
+	top: 462px;
+	width: 267px;
+	height: 39px;
+	z-index: 5;
+	visibility: hidden;
+}
+#miyatext {
+	position: absolute;
+	left: 678px;
+	top: 454px;
+	width: 271px;
+	height: 39px;
+	z-index: 6;
+	visibility: hidden;
+}
+#toktext {
+	position: absolute;
+	left: 680px;
+	top: 464px;
+	width: 232px;
+	height: 43px;
+	z-index: 7;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body background="images/Dark blue background 2 iPad Air Wallpapers HD.jpg">
+<div id="map"><img src="images/map.gif" width="316" height="355" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="40,279,123,338" href="#" onmouseover="MM_showHideLayers('map','','show','tokyo','','hide','miyajima','','hide','aquarium','','show','okitext','','show','miyatext','','hide','toktext','','hide')" />
+    <area shape="rect" coords="197,159,271,208" href="#" onmouseover="MM_showHideLayers('map','','show','tokyo','','show','miyajima','','hide','aquarium','','hide','okitext','','hide','miyatext','','hide','toktext','','show')" />
+    <area shape="rect" coords="58,178,141,224" href="#" onmouseover="MM_showHideLayers('map','','show','tokyo','','hide','miyajima','','show','aquarium','','hide','okitext','','hide','miyatext','','show','toktext','','hide')" />
+  </map>
+</div>
+<div id="tokyo"><img src="images/toky.jpg" width="345" height="318" /></div>
+<div id="miyajima"><img src="images/miya.jpg" width="396" height="303" /></div>
+<div id="aquarium"><img src="images/aquarium.jpg" name="aqu" width="407" height="316" id="aqu" /></div>
+<div id="okitext">
+  <div align="center">
+    <h3><font color="white">Okinawa Churaumi Aquarium</font></h3>
+  </div>
+</div>
+<div id="miyatext">
+  <div align="center">
+    <h3><font color="white">MiyaJima</font></h3>
+  </div>
+</div>
+<div id="toktext">
+  <div align="center">
+    <h3><font color="white">Tokyo</font></h3>
+  </div>
+</div>
+<div align="center">
+  <h1><font color="white">Where We Might Go</font></h1>
+</div>
+<p>&nbsp;</p>
+</body>
+</html>
