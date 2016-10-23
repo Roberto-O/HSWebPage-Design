@@ -1,0 +1,70 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>DIY</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 36px;
+	font-weight: bold;
+}
+h3 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-weight: bold;
+}
+h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-weight: normal;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+  <h2>Do It Yourself Page!</h2>
+</div>
+<div align="center">
+  <p>&nbsp;</p>
+  <!-- TemplateBeginEditable name="DIY_Table" -->
+  <table width="68%" border="5" cellspacing="5" cellpadding="5">
+    <tr>
+      <td width="30%" height="65"><div align="center"><img src="../images/baklogo.jpg" width="100" height="100" /></div></td>
+      <td width="70%"><div align="center">
+        <h1>Page Name</h1>
+      </div></td>
+    </tr>
+    <tr>
+      <td height="56" align="center" valign="middle"><h3>Step 1:</h3></td>
+      <td><h4>Step description. Add images and rows if neccessary</h4></td>
+    </tr>
+    <tr>
+      <td height="63" align="center" valign="middle"><h3>Step 2:</h3></td>
+      <td><h4>Step description. Add images and rows if neccessary</h4></td>
+    </tr>
+    <tr>
+      <td height="67" align="center" valign="middle"><h3>Step 3:</h3></td>
+      <td><h4>Step description. Add images and rows if neccessary</h4></td>
+    </tr>
+    <tr>
+      <td height="70" align="center" valign="middle"><h3>Step 4:</h3></td>
+      <td><h4>Step description. Add images and rows if neccessary</h4></td>
+    </tr>
+    <tr>
+      <td height="61" align="center" valign="middle"><h3>Step 5:</h3></td>
+      <td><h4>Step description. Add images and rows if neccessary</h4></td>
+    </tr>
+  </table>
+  <!-- TemplateEndEditable -->
+  <p>&nbsp;</p>
+</div>
+<p align="center"><a href="../index.html">Home</a></p>
+</body>
+</html>
