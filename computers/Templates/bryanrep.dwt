@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Bryan's Computer Repair Service</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #336633;
+}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #336633;
+}
+#computers {
+	background-color: #FFF;
+}
+a:link {
+	color: #336633;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #f00;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0f0;
+}
+a:active {
+	text-decoration: none;
+	color: #336633;
+}
+</style>
+</head>
+
+<body background="../images/repair_bkg.jpg">
+<div align="center">
+  <h1>Bryan's Computer Repair Services</h1>
+</div>
+<h3 align="left"><!-- TemplateBeginEditable name="subtitle" -->This week's featured computers are [computer types]<!-- TemplateEndEditable --></h3>
+<!-- TemplateBeginEditable name="introduction" -->
+<p>Introductory Paragraph</p>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="examples" -->
+<p>The following table displays:</p>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="table_images" -->
+<table width="60%" border="2" align="center" cellpadding="8" cellspacing="8" id="computers">
+  <tr>
+    <td align="center">Add rows/columns as needed</td>
+    <td align="center">Add images to table</td>
+  </tr>
+</table>
+<!-- TemplateEndEditable --><!-- TemplateBeginEditable name="links" -->
+<p>Links</p>
+<!-- TemplateEndEditable -->
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Computer Maintenance Tips</title>
+<style type="text/css">
+p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+#map {
+	position: absolute;
+	left: 5px;
+	top: 220px;
+	width: 715px;
+	height: 335px;
+	z-index: 1;
+}
+#day_tip {
+	position: absolute;
+	left: 750px;
+	top: 220px;
+	width: 303px;
+	height: 335px;
+	z-index: 2;
+	visibility: hidden;
+}
+#wiik_tip {
+	position: absolute;
+	left: 750px;
+	top: 220px;
+	width: 303px;
+	height: 335px;
+	z-index: 3;
+	visibility: hidden;
+}
+#month_tip {
+	position: absolute;
+	left: 750px;
+	top: 220px;
+	width: 303px;
+	height: 335px;
+	z-index: 4;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+</head>
+
+<body background="images/repair_bkg.jpg">
+<div id="map"><img src="images/calendars.jpg" width="715" height="335" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="5,4,227,335" href="#" onmouseover="MM_showHideLayers('map','','show','day_tip','','show','wiik_tip','','hide','month_tip','','hide')" />
+    <area shape="rect" coords="229,4,464,332" href="#" onmouseover="MM_showHideLayers('map','','show','day_tip','','hide','wiik_tip','','show','month_tip','','hide')" />
+    <area shape="rect" coords="466,5,711,336" href="#" onmouseover="MM_showHideLayers('map','','show','day_tip','','hide','wiik_tip','','hide','month_tip','','show')" />
+  </map>
+</div>
+<div id="day_tip"><img src="images/shutdown.jpg" alt="daily tips" name="shutdown" width="303" height="335" id="shutdown" /></div>
+<div id="wiik_tip"><img src="images/backup.jpg" alt="week tip" name="backup" width="303" height="335" id="backup" /></div>
+<div id="month_tip"><img src="images/checkdisk.jpg" alt="montlhly tip" name="checkdisk" width="303" height="335" id="checkdisk" /></div>
+<h1><font face="Verdana, Geneva, sans-serif">Computer Maintenance Tips</font></h1>
+<p>You should perform computer maintenance tasks on a regular basis. Perform some tasks every day, other tasks every week, and other tasks every month. Regular maintenance extends the life of your computer and its components.</p>
+<p>Move the mouse pointer over the image to view maintenance tasks.</p>
+
+</body>
+</html>

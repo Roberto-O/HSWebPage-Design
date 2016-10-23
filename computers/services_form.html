@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+<body background="images/repair_bkg.jpg">
+<h2 align="center">Bryan's Computer Repair Services<br />
+  Service Request
+</h2>
+<hr align="center" width="600" size="4" noshade="noshade" />
+<form action="mailto:reolivera97@gmail.com" enctype="text/plain" name="services" target="_self" id="services" onsubmit="MM_validateForm('name','','R','address','','R','city','','R','state','','R','zip','','R','email','','NisEmail');return document.MM_returnValue">
+  <table width="80%" border="3" align="center" cellpadding="5" cellspacing="0" id="table_service">
+    <tr>
+      <td width="35%" align="right">Name</td>
+      <td align="left"><input name="name" type="text" id="name" size="50" /></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right">Address</td>
+      <td align="left"><input type="text" name="address" id="address" /></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right">City/State/Zip Code</td>
+      <td align="left">City
+      <input name="city" type="text" id="city" size="55" />
+      State
+      <input name="state" type="text" id="state" size="2" maxlength="2" />
+      Zip
+      <input name="zip" type="text" id="zip" size="5" maxlength="5" /></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right">Service<br />
+      (Hold down CTRL key to select multiple items)</td>
+      <td align="left"><select name="select" size="3" multiple="multiple" id="select">
+        <option value="$50-$75">Instal software</option>
+        <option value="$150">Replace hard drive</option>
+        <option value="$100">Back up hard drive</option>
+        <option value="$75">Update drivers </option>
+        <option value="$75">Remove conflicts</option>
+        <option value="$100">Optimize speed and performance</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right">Comments</td>
+      <td align="left"><textarea name="comments" id="comments" cols="40" rows="4"></textarea></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right">Email address</td>
+      <td align="left"><input name="email" type="text" id="email" size="35" /></td>
+    </tr>
+    <tr>
+      <td width="35%" align="right"><input type="submit" name="button" id="button" value="Submit" /></td>
+      <td align="left"><input type="reset" name="reset" id="reset" value="Reset" /></td>
+    </tr>
+  </table>
+</form>
+<p align="center">&nbsp;</p>
+</body>
+</html>
